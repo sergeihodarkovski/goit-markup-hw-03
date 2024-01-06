@@ -329,13 +329,18 @@ ul {
   letter-spacing: 0.02em;
 }
 
-/*------------portfolio-------------*/
+/*------------footer-------------*/
+
+.footer-container {
+  padding: 100px 0;
+}
 
 .footer {
   background-color: #2e2f42;
 }
 
 .footer-text {
+  max-width: 264px;
   color: var(--CLOUD, #f4f4fd);
   font-size: 16px;
   line-height: 1.5;
@@ -343,6 +348,7 @@ ul {
 }
 
 .footer-logo {
+  display: inline-block;
   color: var(--IRIS, #4d5ae5);
   font-family: "Raleway", sans-serif;
   font-size: 18px;
@@ -350,6 +356,7 @@ ul {
   line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
+  margin-bottom: 16px;
 }
 
 .footer-logo-span {
