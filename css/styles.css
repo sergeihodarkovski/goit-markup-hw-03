@@ -212,11 +212,19 @@ ul {
 /*-----------team-card--------------*/
 
 .team-card-container {
-  padding-top: 120px;
+  padding-top: 120px 0;
 }
 
 .team-card {
   background-color: #f4f4fd;
+}
+
+.team-card-item-f {
+  border-radius: 0px 0px 4px 4px;
+  background: var(--WHITE, #fff);
+  box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08),
+    0px 1px 1px 0px rgba(46, 47, 66, 0.16),
+    0px 1px 6px 0px rgba(46, 47, 66, 0.08);
 }
 
 .team-card-titel {
@@ -229,6 +237,11 @@ ul {
   text-transform: capitalize;
   width: 100%;
   margin: 0 auto 72px;
+  border-radius: 0px 0px 4px 4px;
+  background: var(--WHITE, #fff);
+  box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08),
+    0px 1px 1px 0px rgba(46, 47, 66, 0.16),
+    0px 1px 6px 0px rgba(46, 47, 66, 0.08);
 }
 
 .team-card-list-container {
@@ -272,34 +285,35 @@ ul {
   background-color: #ffffff;
 }
 
+.portfolio-container {
+  padding: 120px o 120px 0;
+}
+
 .portfolio-list {
   display: flex;
   flex-wrap: wrap;
   gap: 48px 24px;
-  padding: 120px o 120px 0;
   background-color: #ffffff;
 }
 
 .portfolio-list-item {
   display: flex;
-  padding: 0px 16px;
+  padding: 32px 16px;
   flex-direction: column;
   justify-content: center;
   align-items: flex-start;
-  margin-bottom: 8px;
   align-self: stretch;
+  border: 1px solid var(--CORNFLOWER, #e7e9fc);
+  background: var(--WHITE, #fff);
 }
 
 .portfolio-item {
-  border: 1px solid var(--CORNFLOWER, #e7e9fc);
-  background: var(--WHITE, #fff);
   display: flex;
   width: 360px;
   height: 420px;
   padding-bottom: 32px;
   flex-direction: column;
   align-items: flex-start;
-  gap: 32px;
   flex-shrink: 0;
 }
 
@@ -320,6 +334,7 @@ ul {
   font-weight: 500;
   line-height: 1.2;
   letter-spacing: 0.02em;
+  margin-bottom: 8px;
 }
 
 .portfolio-text {
