@@ -87,6 +87,7 @@ ul {
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.02em;
+  padding: 24px 0;
 }
 
 .header-menu-link:hover {
@@ -106,6 +107,7 @@ ul {
 .header-link {
   display: flex;
   gap: 40px;
+  padding: 24px 0;
 }
 
 .header-list-link {
@@ -127,10 +129,10 @@ ul {
 
 .hero {
   background: var(--NAVY-BLUE, #2e2f42);
+  padding: 188px 0;
 }
 
 .hero-container {
-  padding: 188px 0;
   flex-shrink: 0;
 }
 
@@ -143,7 +145,7 @@ ul {
   letter-spacing: 0.02em;
   max-width: 496px;
   margin: 0 auto 48px;
-  display: inline-block;
+  display: block;
 }
 
 .hero-button {
@@ -188,7 +190,7 @@ ul {
   overflow: hidden;
 }
 
-.features-container {
+.features {
   padding: 120px 0;
 }
 
@@ -219,12 +221,9 @@ ul {
 
 /*-----------team-card--------------*/
 
-.team-card-container {
-  padding-top: 120px 0;
-}
-
 .team-card {
   background-color: #f4f4fd;
+  padding-top: 120px 0;
 }
 
 .team-card-titel {
@@ -285,10 +284,7 @@ ul {
 
 .portfolio {
   background-color: #ffffff;
-}
-
-.portfolio-container {
-  padding: 120px o 120px 0;
+  padding-top: 120px 0;
 }
 
 .portfolio-list {
@@ -307,6 +303,7 @@ ul {
   align-self: stretch;
   border: 1px solid var(--CORNFLOWER, #e7e9fc);
   background: var(--WHITE, #fff);
+  border-top: none;
 }
 
 .portfolio-item {
@@ -348,12 +345,9 @@ ul {
 
 /*------------footer-------------*/
 
-.footer-container {
-  padding: 100px 0;
-}
-
 .footer {
   background-color: #2e2f42;
+  padding: 100px 0;
 }
 
 .footer-text {
