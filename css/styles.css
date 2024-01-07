@@ -45,13 +45,16 @@ ul {
   padding-left: 0;
 }
 
+.header {
+  border-bottom: 1px solid var(--CORNFLOWER, #e7e9fc);
+}
+
 .header-container {
   width: 1158px;
   padding: 0 15px;
   display: flex;
   height: 72px;
   flex-shrink: 0;
-  border-bottom: 1px solid var(--CORNFLOWER, #e7e9fc);
   background: var(--WHITE, #fff);
 }
 
@@ -128,12 +131,12 @@ ul {
 /*------------hero-------------*/
 
 .hero {
-  background: var(--NAVY-BLUE, #2e2f42);
   padding: 188px 0;
 }
 
 .hero-container {
   flex-shrink: 0;
+  background: var(--NAVY-BLUE, #2e2f42);
 }
 
 .hero-titel {
@@ -222,8 +225,8 @@ ul {
 /*-----------team-card--------------*/
 
 .team-card {
-  background-color: #f4f4fd;
   padding-top: 120px 0;
+  background-color: #f4f4fd;
 }
 
 .team-card-titel {
@@ -359,7 +362,7 @@ ul {
 }
 
 .footer-logo {
-  display: inline-block;
+  display: block;
   color: var(--IRIS, #4d5ae5);
   font-family: "Raleway", sans-serif;
   font-size: 18px;
