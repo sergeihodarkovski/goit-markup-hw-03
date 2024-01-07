@@ -30,7 +30,7 @@ address {
 .container {
   width: 100%;
   max-width: 1440px;
-  padding: 120px 156px 120px 156px;
+  padding: 0 156px;
   margin: 0 auto;
 }
 
@@ -132,11 +132,11 @@ ul {
 
 .hero {
   padding: 188px 0;
+  background: var(--NAVY-BLUE, #2e2f42);
 }
 
 .hero-container {
   flex-shrink: 0;
-  background: var(--NAVY-BLUE, #2e2f42);
 }
 
 .hero-titel {
@@ -148,7 +148,6 @@ ul {
   letter-spacing: 0.02em;
   max-width: 496px;
   margin: 0 auto 48px;
-  display: block;
 }
 
 .hero-button {
@@ -225,7 +224,7 @@ ul {
 /*-----------team-card--------------*/
 
 .team-card {
-  padding-top: 120px 0;
+  padding: 120px 0;
   background-color: #f4f4fd;
 }
 
@@ -287,7 +286,7 @@ ul {
 
 .portfolio {
   background-color: #ffffff;
-  padding-top: 120px 0;
+  padding: 120px 0;
 }
 
 .portfolio-list {
@@ -362,7 +361,7 @@ ul {
 }
 
 .footer-logo {
-  display: block;
+  display: inline-block;
   color: var(--IRIS, #4d5ae5);
   font-family: "Raleway", sans-serif;
   font-size: 18px;
